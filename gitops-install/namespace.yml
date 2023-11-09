@@ -10,5 +10,4 @@ metadata:
   name: #@ ns.name
   labels:
     policy.sigstore.dev/include: "true"
-    apps.tanzu.vmware.com/tap-ns: "true"
 #@ end
