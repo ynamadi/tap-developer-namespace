@@ -4,7 +4,7 @@ namespaces:
 #! The only required parameter is the name of the namespace. All additional values provided here
 #! for a namespace will be available under data.values for templating additional sources
 - name: dev
-  pipelines: ["java", "java17", "node"]
+  pipelines: ["java", "java17", "node", "angular"]
   scanpolicies: ["lax-scan-policy"]
 - name: test
   pipelines: ["java", "java17", "dotnet", "node"]
