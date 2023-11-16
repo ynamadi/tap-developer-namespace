@@ -9,3 +9,6 @@ namespaces:
 - name: test
   pipelines: ["java", "java17", "dotnet", "node"]
   scanpolicies: ["carbonblack-scan-policy", "snyk-scan-policy"]
+- name: tdp
+  pipelines: ["java", "java17", "node", "angular"]
+  scanpolicies: ["lax-scan-policy"]
